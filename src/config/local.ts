@@ -1,6 +1,6 @@
 const localConfig = {
   connectionType: 'proxy',
-  apiUrl: 'http://localhost:5500/',
+  apiUrl: 'https://localhost:7245/api/',
 };
 
 export default localConfig;

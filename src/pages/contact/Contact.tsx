@@ -7,8 +7,8 @@ import {
   Typography,
 } from "@mui/material";
 import React, { useState } from "react";
-import FullWidthPagePart from "../../config/sharedComponents/FullWidthPagePart";
-import { AnimatedBox } from "../../config/sharedComponents/AnimatedBox";
+import FullWidthPagePart from "../sharedComponents/FullWidthPagePart";
+import { AnimatedBox } from "../sharedComponents/AnimatedBox";
 import { MAX_MESSAGE_LENGTH, MAX_USER_LENGTH } from "../../types/Constants";
 
 const Contact: React.FC = () => {

@@ -7,6 +7,7 @@ import { theme } from "./theme/theme";
 import { AuthProvider } from "./providers/AuthProvider.tsx";
 import { BrowserRouter } from "react-router-dom";
 import { CartProvider } from "./providers/CartProvider.tsx";
+import { StylingProvider } from "./theme/useStyling.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -14,7 +15,9 @@ createRoot(document.getElementById("root")!).render(
       <AuthProvider>
         <BrowserRouter>
           <CartProvider>
-            <App />
+            <StylingProvider>
+              <App />
+            </StylingProvider>
           </CartProvider>
         </BrowserRouter>
       </AuthProvider>

@@ -1,5 +1,5 @@
 import { Box, Container, Grid, Typography, Button, Stack } from "@mui/material";
-import { AnimatedBox } from "../../config/sharedComponents/AnimatedBox";
+import { AnimatedBox } from "../sharedComponents/AnimatedBox";
 
 const About = () => {
   return (
